@@ -1,0 +1,21 @@
+Port Mapping :
+
+$ docker run -it --rm -d -p 8080:80 --name web nginx
+
+
+
+
+
+
+
+++++++
+FLAGS:
++++++
+
+-rm flag is there to tell the Docker Daemon to clean up the container and remove the file system after the container exits
+
+
+
+-d 
+Instead of running docker container with an interactive shell it is also possible to let docker container to run as a daemon
+which means that the docker container would run in the background completely detached from your current shell
