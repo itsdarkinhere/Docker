@@ -17,8 +17,13 @@ To pull  images
 +++++++++++++++++
 To run  images 
 +++++++++++++++++
-1]docker run ubuntu:14.04 cat /etc/os-release
-2]docker container run ubuntu:14.04 cat /etc/os-release
+1]docker run ubuntu:14.04 /bin/sh    
+docker ran ubuntu container and then it ran the command /bin/sh and then exited.
+As You did not supply any additional commands to /bin/sh so it just launched the shell, exited the shell
+
+2]docker run -it ubuntu:14.04 /bin/sh    = docker runs ububtu image  in interactive mode and launches the shell
+
+3]docker container run ubuntu:14.04
 
 
 
