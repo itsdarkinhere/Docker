@@ -35,7 +35,23 @@ LISTING IMAGES
 1]docker images
 2]docker image ls 
 3]docker image ls -a = will list docker images (-a flag will list all available image)+
-4]docker container ls -a     =(will list downloaded containers with details of image created/ date )
+
+
++++++++++++++
+Starting /stopping Containers
++++++++++++++
+1] docker container start 9671496c7aab 
+2]docker container stop   9671496c7aab
+
+
++++++++++++++
+LISTING containers
++++++++++++++
+
+1]docker container ls         = (will only list running containers) for that you will have to start a container using docker container start "containerid"  cmd=docker container start 9671496c7aab
+2]docker container ls -a     =  (will list downloaded containers with details of image created/ date )
+
+
 
 ++++++++++++++++++++++++++
 To see History of Docker Image:
