@@ -25,6 +25,7 @@ As You did not supply any additional commands to /bin/sh so it just launched the
 
 3]docker container run ubuntu:14.04
 
+4]docker run -d nginx                 = -d in detach mode
 
 
 +++++++++++++
