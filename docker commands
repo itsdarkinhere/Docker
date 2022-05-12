@@ -1,0 +1,47 @@
+++++++++++++++++++++++++++++++++++
+To search  images & get description
+++++++++++++++++++++++++++++++++++
+
+1]docker search hello-world
+2]docker search ubuntu
+
+
+
++++++++++++++++++
+To pull  images 
++++++++++++++++++
+
+1]docker image pull ubuntu:14.04
+
+
++++++++++++++++++
+To run  images 
++++++++++++++++++
+1]docker run ubuntu:14.04 cat /etc/os-release
+2]docker container run ubuntu:14.04 cat /etc/os-release
+
+
+
++++++++++++++
+LISTING IMAGES
++++++++++++++
+
+
+1]docker images
+2]docker image ls 
+3]docker image ls -a = will list docker images (-a flag will list all available image)+
+4]docker container ls -a     =(will list downloaded containers with details of image created/ date )
+
+++++++++++++++++++++++++++
+To see History of Docker Image:
+++++++++++++++++++++++++++
+
+1]docker image history hello-world
+
+
+++++++++++++++++++++++++++
+To see sha256 of the images
+++++++++++++++++++++++++++
+
+1]docker images --digests
+
