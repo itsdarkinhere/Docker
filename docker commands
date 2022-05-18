@@ -14,6 +14,18 @@ To pull  images
 1]docker image pull ubuntu:14.04
 
 
+
++++++++++++++
+LISTING IMAGES
++++++++++++++
+
+
+1]docker images
+2]docker image ls 
+3]docker image ls -a = will list docker images (-a flag will list all available image)+
+
+
+
 +++++++++++++++++
 To run  images 
 +++++++++++++++++
@@ -28,14 +40,6 @@ As You did not supply any additional commands to /bin/sh so it just launched the
 4]docker run -d nginx                 = -d in detach mode
 
 
-+++++++++++++
-LISTING IMAGES
-+++++++++++++
-
-
-1]docker images
-2]docker image ls 
-3]docker image ls -a = will list docker images (-a flag will list all available image)+
 
 
 +++++++++++++
