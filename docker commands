@@ -54,6 +54,14 @@ LISTING containers
 
 
 
+
++++++++++++++
+Removing IMAGES
++++++++++++++
+1]docker container rm 6650edbb3c40
+2]docker image rmi alpine
+3]docker rmi --force hello-world
+
 ++++++++++++++++++++++++++
 To see History of Docker Image:
 ++++++++++++++++++++++++++
